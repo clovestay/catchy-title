@@ -1,0 +1,67 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'HardingWeb';
+    src: url('$lib/assets/HardingText-Regular-Web-cecd90984f.woff2') format('woff2'),
+         url('$lib/fonts/HardingText-Regular-Web-cecd90984f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HardingWebBold';
+    src: url('$lib/assets/HardingText-Bold-Web.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+  .nature-title {
+    font-family: 'HardingWebBold', sans-serif;
+    font-weight: 800;
+    color: rgb(34, 34, 34);
+  }
+
+  .nature-author {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    color: #069;
+    text-decoration: underline;
+  }
+
+  .nature-divider {
+    width: 5px;
+    border-right: solid 2px rgb(197, 224, 244);
+  }
+
+  .nature-oa {
+    color: rgb(183, 70, 22);
+    text-decoration: underline;
+  }
+
+  .cell-cell {
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: rgb(0, 125, 188)
+  }
+  .cell-article {
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 700;
+    color: #b2b2b2;
+  }
+  .cell-title {
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: black;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
