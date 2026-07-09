@@ -35,7 +35,7 @@
 
 </script>
 
-<div class="h-[300px] w-[70%] min-w-[70%]">
+<div class="h-[300px] w-[70%] min-w-[70%] max-w-[700px]">
     {#if activeStyle === "Nature"}
         <NatureHeader activeTitle={activeTitle} authors={authors} />
     {:else if activeStyle === "Cell"}
@@ -48,7 +48,7 @@
 </div>
 
 
-<div class="flex flex-col gap-5 align-middle items-center w-[50%]">
+<div class="flex flex-col gap-5 align-middle items-center w-[50%] max-w-[400px]">
     <input type="text" placeholder="Enter your title..." on:input={(x) => updateTitle(x)}
         class="border-gray-200 bg-gray-50 text-gray-800 p-2 w-[100%] rounded-sm"/>
     <select bind:value={activeStyle}>
