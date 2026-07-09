@@ -1,7 +1,6 @@
 <script>
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
-	export const prerender = true;
 	let { children } = $props();
 </script>
 
